@@ -1,6 +1,7 @@
 # Asset Manager (MERN Stack)
 
 This is a full-stack project scaffolded with the MERN stack (MongoDB, Express, React, Node.js).
+-Always check terminal output after running a command in terminal
 
 ## Structure
 - `server/` - Express backend with MongoDB

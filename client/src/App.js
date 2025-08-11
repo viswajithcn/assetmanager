@@ -1,10 +1,13 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Asset Manager (MERN Stack)</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      {/* Add more routes here as needed */}
+    </Routes>
   );
 }
 
